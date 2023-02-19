@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ailton",
+      "surname": "Borges",
+      "email": "ailtonxdz@gmail.com",
+      "age": 18
+    },
+    {
+      "id": 2,
+      "name": "Karol",
+      "surname": "Barros",
+      "email": "karoldibarro@gmail.com",
+      "age": 15
+    }
+  ]
+}
