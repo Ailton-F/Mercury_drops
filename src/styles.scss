@@ -4,6 +4,8 @@
 /* Document
 ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 /**
 * 1. Correct the line height in all browsers.
@@ -25,6 +27,7 @@ line-height: 1.15; /* 1 */
 body {
 margin: 0;
 font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
 }
 
 /**

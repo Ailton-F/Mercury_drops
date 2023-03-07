@@ -1,0 +1,26 @@
+
+$bc: #222;
+
+.search{
+    border: .5px solid $bc;
+    border-right: none;
+
+    &:focus{
+        outline: none;
+    }
+
+    &::placeholder{
+        padding: 0 .5em;
+    }
+}
+
+.sbmt-btn{
+    border: .5px solid $bc;
+    border-left: none;
+    border-radius: 0;
+}
+
+.nav-icon{
+    font-size: x-large;
+    color: $bc;
+}

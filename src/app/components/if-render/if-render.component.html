@@ -1,7 +1,0 @@
-<div>
-    <p *ngIf="!canShow">Pode mostrar</p>
-    <p *ngIf="name === 'Ailto'; else nameNotFound">Nome: {{name}}</p>
-    <ng-template #nameNotFound>
-        <p>Nome não encontrado!</p>
-    </ng-template>
-</div>

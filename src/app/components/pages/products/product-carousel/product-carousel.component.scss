@@ -1,0 +1,42 @@
+.slider{
+    position: relative;
+}
+
+.items{
+    transition: .4s;
+    z-index: -1;    
+}
+
+.handler{
+    position: absolute;
+    top: calc(50% - 118px);
+    font-size: 48px;
+    background-color: transparent;
+    border: none;
+    height: 4em;
+
+    i{
+        color: transparent;
+    }
+}
+
+.handler:hover{
+    background-color: rgba($color: #ffffff, $alpha: .6);
+    box-shadow: 3px -1px 38px 22px rgba($color: #ffffff, $alpha: .6);
+    -webkit-box-shadow: 3px -1px 38px 22px rgba($color: #ffffff, $alpha: .6);
+    -moz-box-shadow: 3px -1px 38px 22px rgba($color: #ffffff, $alpha: .6);
+    i{
+        color: black;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+    }
+}
+
+
+.prev{
+    left: -4.5%;
+}
+
+.next{
+    right: -4.5%;
+}

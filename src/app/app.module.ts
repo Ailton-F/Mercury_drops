@@ -5,32 +5,22 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { FirstComponentComponent } from './components/first-component/first-component.component';
-import { ParentDataComponent } from './components/parent-data/parent-data.component';
-import { DirectivesComponent } from './components/directives/directives.component';
-import { IfRenderComponent } from './components/if-render/if-render.component';
-import { EventsComponent } from './components/events/events.component';
-import { EmitComponent } from './components/emit/emit.component';
-import { ChangeNumberComponent } from './components/change-number/change-number.component';
-import { ForRenderComponent } from './components/for-render/for-render.component';
-import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
-import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
-import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { ProductsComponent } from './components/pages/products/products.component';
+import { PreviewComponent } from './components/pages/products/preview/preview.component';
+import { ProductCarouselComponent } from './components/pages/products/product-carousel/product-carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponentComponent,
-    ParentDataComponent,
-    DirectivesComponent,
-    IfRenderComponent,
-    EventsComponent,
-    EmitComponent,
-    ChangeNumberComponent,
-    ForRenderComponent,
-    PipeOperatorComponent,
-    TwoWayBindingComponent,
-    ItemDetailComponent
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    ProductsComponent,
+    PreviewComponent,
+    ProductCarouselComponent,
   ],
   imports: [
     BrowserModule,
